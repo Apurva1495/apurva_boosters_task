@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".GenerateActivity">
+
+  <ImageView
+      android:id="@+id/back"
+      android:layout_margin="5dp"
+      android:src="@drawable/ic_back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_rawRes="@raw/qrcode2"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <EditText
+            android:id="@+id/field"
+            android:hint="Enter Your Content"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/btnGenerate"
+            android:text="Generate Qr Code"
+            android:layout_margin="10dp"
+            android:textColor="#E8FFFFFF"
+            android:gravity="end"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/qrProfile"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

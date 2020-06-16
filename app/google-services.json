@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "224425719299",
+    "firebase_url": "https://apurvaboosterstask.firebaseio.com",
+    "project_id": "apurvaboosterstask",
+    "storage_bucket": "apurvaboosterstask.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224425719299:android:61d6d967fb110f81f68036",
+        "android_client_info": {
+          "package_name": "com.example.apurva_boosters_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224425719299-jd56gkpjq9q3lsv9ut9jsi74qlo6143t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apurva_boosters_task",
+            "certificate_hash": "e311b3f9bfb5db317b48167f63e542cc60e5a8ee"
+          }
+        },
+        {
+          "client_id": "224425719299-rhc1ugc3n0o83s4icp8rgqj4iu2euleh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6vYawWiWfS2e0v4xN2jY54D4q73TaGOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224425719299-rhc1ugc3n0o83s4icp8rgqj4iu2euleh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
